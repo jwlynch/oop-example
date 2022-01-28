@@ -1,6 +1,9 @@
 
+class Empty:
+    pass
 
-def plain_func(a, b, c):
-    print(type(a), type(b), type(c))
+def plain_func(a, b, c, d):
+    print(type(a), type(b), type(c), type(d))
 
-plain_func(1, "hi", [])
+plain_func(Empty, 1, "hi", [])
+
